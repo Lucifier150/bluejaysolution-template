@@ -599,9 +599,7 @@ big {
 .bg-third {
   background: #0160e7;
 }
-.search-engine-form .bg-overlay-img2{
-  background-image: none !important;
-}
+
 .bg-gradient {
   background-color: #0039e4;
   background-image: -moz-linear-gradient(145deg, #0039e4, #04dbf1);
@@ -2067,6 +2065,7 @@ section {
     font-size: 13px;
     font-weight: 700;
   }
+
 }
 
 /*--------------------------------------------------------------
@@ -2473,6 +2472,9 @@ hr {
 @media (max-width: 767px) {
   .octf-btn:before {
     display: none;
+  }
+  .search-engine-form .bg-overlay-img2{
+    background-image: none !important;
   }
 }
 
