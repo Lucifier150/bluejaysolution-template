@@ -13429,7 +13429,10 @@ div.tp-bullets {
     line-height: 22px;
   }
   .search-engine-form h2{
-    font-size: 30px;
+    font-size: 24px;
+  }
+  .octf-btn{
+    font-size: 14px;
   }
 }
 
