@@ -3585,7 +3585,9 @@ a:active {
 }
 
 @media (max-width: 782px) {
-
+  .p-t140{
+    padding-top: 55px;
+  }
   .admin-bar .is-stuck,
   .admin-bar .header-overlay {
     top: 46px;
