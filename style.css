@@ -3590,6 +3590,10 @@ a:active {
   .admin-bar .header-overlay {
     top: 46px;
   }
+  .row{
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 600px) {
@@ -10397,6 +10401,9 @@ div.tp-bullets {
   height: 60px;
   line-height: 60px;
   font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .s-box .icon-main i,
