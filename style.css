@@ -3679,7 +3679,7 @@ a:active {
     display: block;
     font-family: "Red Hat Display", sans-serif;
     width: 100%;
-    background: #fff;
+    background: transparent;
   }
 
   .header_mobile.is-stuck {
@@ -3688,7 +3688,7 @@ a:active {
 
   .header_mobile .mlogo_wrapper {
     position: relative;
-    background: #fff;
+    background: transparent;
     padding: 10px 0px;
   }
 
@@ -9920,6 +9920,7 @@ div.tp-bullets {
   background-position: center center;
   background-repeat: no-repeat;
   padding: 170px 0 140px 0;
+  background-size: cover;
 }
 
 .home3-top .g-line {
@@ -13345,6 +13346,9 @@ div.tp-bullets {
   }
   .flex-column-sm-reverse{
     flex-direction: column-reverse;
+  }
+  .home3-top{
+    padding: 4rem 0 9.5rem 0 !important;
   }
 }
 
