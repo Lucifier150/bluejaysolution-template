@@ -3585,8 +3585,17 @@ a:active {
 }
 
 @media (max-width: 782px) {
+  .home4-service{
+    padding-bottom: 10px !important;
+  }
+  .main-footer{
+    padding-bottom: 22px !important;
+  }
   .p-t140{
     padding-top: 55px;
+  }
+  .p-b100{
+    padding-bottom: 30px;
   }
   .admin-bar .is-stuck,
   .admin-bar .header-overlay {
