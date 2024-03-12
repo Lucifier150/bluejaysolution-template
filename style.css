@@ -1,3 +1,6 @@
+*{
+  /* border: 1px solid red; */
+}
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -508,7 +511,9 @@ em,
 i {
   font-style: italic;
 }
-
+.service-box{
+height: max-content !important;
+}
 blockquote {
   font-size: 24px;
   line-height: 42px;
@@ -3871,7 +3876,7 @@ a:active {
   .header_mobile .mobile_nav .mobile_mainmenu>li>a:hover,
   .header_mobile .mobile_nav .mobile_mainmenu>li.current-menu-item>a,
   .header_mobile .mobile_nav .mobile_mainmenu>li.current-menu-ancestor>a {
-    color: #fe4c1c;
+    color: #00c3ff;
   }
 }
 
@@ -8378,7 +8383,10 @@ span.wpcf7-list-item {
     padding-left: 18px;
     font-size: 14px;
   }
-
+.real-numbers .chart-boxs {
+  margin: 0;
+  position: relative;
+}
   .elementor-widget-slider_revolution .octf-btn-icon i {
     width: 30px;
     height: 30px;
