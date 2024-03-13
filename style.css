@@ -1,6 +1,7 @@
-*{
+* {
   /* border: 1px solid red; */
 }
+
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -33,12 +34,11 @@
 @import url("https://fonts.googleapis.com/css?family=Red+Hat+Display:400,400i,500,500i,700,700i,900,900i");
 @import url("https://fonts.googleapis.com/css?family=Red+Hat+Text:400,400i,500,500i,700,700i");
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
-
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
- 
+
 html {
   line-height: 1.15;
   /* 1 */
@@ -247,7 +247,8 @@ fieldset {
 .mb-1 {
   margin-bottom: 1rem !important;
 }
-.mt-1{
+
+.mt-1 {
   margin-top: 2rem;
 }
 
@@ -511,9 +512,11 @@ em,
 i {
   font-style: italic;
 }
-.service-box{
-height: max-content !important;
+
+.service-box {
+  height: max-content !important;
 }
+
 blockquote {
   font-size: 24px;
   line-height: 42px;
@@ -2473,7 +2476,8 @@ hr {
   .octf-btn:before {
     display: none;
   }
-  .search-engine-form .bg-overlay-img2{
+
+  .search-engine-form .bg-overlay-img2 {
     background-image: none !important;
   }
 }
@@ -3279,6 +3283,7 @@ a:active {
 .header-overlay .main-navigation>ul>li>a {
   color: #fff;
 }
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -3287,18 +3292,19 @@ a:active {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #04b6f1 0%, #002cae 62%); 
+  background: linear-gradient(180deg, #04b6f1 0%, #002cae 62%);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #04b6f1 0%, #002cae 62%); 
+  background: linear-gradient(180deg, #04b6f1 0%, #002cae 62%);
 }
+
 .header-overlay .main-navigation>ul>li.menu-item-has-children>a:after {
   color: rgba(255, 255, 255, 0.5);
 }
@@ -3585,23 +3591,28 @@ a:active {
 }
 
 @media (max-width: 782px) {
-  .home4-service{
+  .home4-service {
     padding-bottom: 10px !important;
   }
-  .main-footer{
+
+  .main-footer {
     padding-bottom: 22px !important;
   }
-  .p-t140{
+
+  .p-t140 {
     padding-top: 55px;
   }
-  .p-b100{
+
+  .p-b100 {
     padding-bottom: 30px;
   }
+
   .admin-bar .is-stuck,
   .admin-bar .header-overlay {
     top: 46px;
   }
-  .row{
+
+  .row {
     margin-left: 0;
     margin-right: 0;
   }
@@ -6104,9 +6115,11 @@ object {
   -ms-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
-.height-max{
+
+.height-max {
   height: 170px;
 }
+
 .service-box * {
   -webkit-transition: all 0.1s linear;
   -moz-transition: all 0.1s linear;
@@ -8400,10 +8413,12 @@ span.wpcf7-list-item {
     padding-left: 18px;
     font-size: 14px;
   }
-.real-numbers .chart-boxs {
-  margin: 0;
-  position: relative;
-}
+
+  .real-numbers .chart-boxs {
+    margin: 0;
+    position: relative;
+  }
+
   .elementor-widget-slider_revolution .octf-btn-icon i {
     width: 30px;
     height: 30px;
@@ -9944,7 +9959,7 @@ div.tp-bullets {
   background-image: url(images/shape-home3.png);
   background-position: center center;
   background-repeat: no-repeat;
-  padding: 170px 0 140px 0;
+  padding: 170px 0 16% 0;
   background-size: cover;
 }
 
@@ -11097,13 +11112,16 @@ div.tp-bullets {
   text-align: left;
   padding-left: 0;
 }
-.left-align{
+
+.left-align {
   text-align: left;
 
 }
-.tito-margin i{
+
+.tito-margin i {
   margin-right: 10px;
 }
+
 .project_filters-h5 li:first-child {
   margin-left: 0;
 }
@@ -13372,10 +13390,12 @@ div.tp-bullets {
   .error-404 .error-image {
     position: static;
   }
-  .flex-column-sm-reverse{
+
+  .flex-column-sm-reverse {
     flex-direction: column-reverse;
   }
-  .home3-top{
+
+  .home3-top {
     padding: 4rem 0 9.5rem 0 !important;
   }
 }
@@ -13393,7 +13413,8 @@ div.tp-bullets {
   .home4-benefits-left {
     display: none;
   }
-  .bg-common{
+
+  .bg-common {
     background-image: none !important;
   }
 
@@ -13428,10 +13449,12 @@ div.tp-bullets {
   .copyright {
     line-height: 22px;
   }
-  .search-engine-form h2{
+
+  .search-engine-form h2 {
     font-size: 24px;
   }
-  .octf-btn{
+
+  .octf-btn {
     font-size: 14px;
   }
 }
