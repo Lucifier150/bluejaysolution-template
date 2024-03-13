@@ -513,9 +513,7 @@ i {
   font-style: italic;
 }
 
-.service-box {
-  height: max-content !important;
-}
+
 
 blockquote {
   font-size: 24px;
@@ -4856,6 +4854,9 @@ a:active {
 }
 
 @media (max-width: 991px) {
+  .service-box {
+    height: max-content !important;
+  }
   .content-area {
     margin-bottom: 60px;
   }
